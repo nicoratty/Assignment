@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./form.css">
-        <title>Document</title>
-    </head>
-
-    <body>
-        <div class="login-container">
-            <header class="nav-header">
-                <nav class="navbar">
-                    <ul class="nav-list">
-                        <li>
-                            <a href="./register.html">
-                                Register
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./login.html">
-                                Login
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./sucess.html">
-                                Success
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-                <div class="login-card">
-                    <form class="login-form"  action="./sucess.html" >
-                        <h1 class="login-header">
-                            Sign up
-                        </h1>
-                        <input type="text" name="username" placeholder="username" required />
-                        <input type="text" name="email" placeholder="email" pattern=".+@gmail\.com" size="30" required/>
-                        <input type="text" name="password" placeholder="password" minlength="8" required/>
-                        <input type="submit" class="login-submit" value="Sign up" />
-                    
-                    </form>
-                    <footer class="login-footer">
-                        <p class="login">Login</p>
-                    </footer>
-                </div>
-
-            </div>
-            </body>
-            </html>
-            
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="aboutme.css">
+</head>
+<body>
+    <header class="home-header">
+        <nav class="home-nav">
+            <div class="nav-link about">
+            <a href="./home.html">ABOUTME</a>
+</div>
+            <ul>
+                <li class="nav-link">
+                    <a href="./contact.html">CONTACT</a>
+                </li>
+                <li class="nav-link">
+                    <a href="./registration.html">REGISTRATION</a>
+                </li>
+                <li class="nav-link">
+                    <a href="./login.html">LOGIN</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<main class="login-container">
+    <div class="login-form">
+        <h1 class="login-header">LOGIN</h1>
+        <form class="login">
+          
+          <div class="login-box">
+            <input type="text" id="usern" placeholder="Enter your Email" required>
+    
+          </div>
+          <div class="login-box">
+            <input type="text" id="passw" placeholder="Enter your Password" required>
+          </div>
+          <div class="login-box">
+            <input type="submit" id="signin" value="Sign In">
+        </form>
+        </div>
+</main>
+</body>
+</html>

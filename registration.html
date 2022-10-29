@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutme.css">
+    <title>Registration</title>
+</head>
+<body>
+    <header class="home-header">
+            <nav class="home-nav">
+                <div class="nav-link about">
+                <a href="./home.html">ABOUTME</a>
+    </div>
+                <ul>
+                    <li class="nav-link">
+                        <a href="./contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./registration.html">REGISTRATION</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./login.html">LOGIN</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="reg-container">
+            <form class="reg-form">
+                <table class="register">
+                    <h1>Register</h1>
+                    <tr>
+                  <td><label for="fname" >First Name:</label></td>
+                  <td><Input type="text" id="fname" placeholder="First name" required>
+                  </td>
+                    </tr>
+                      <tr>
+                   <td><label for="lname">Last Name:</label></td>
+                  <td><Input type="text" id="lname" placeholder="Last name" required>
+                  </td>
+                      </tr>
+                     <tr>
+                       <td>
+                    <label for="number">Phone Number:</label></td>
+                  <td><Input type="number" id="number" placeholder="Phonenumber" required>
+                  </td>
+                     </tr>
+                 <tr>
+                   <td>
+                     <label for="gender">Gender:</label></td>
+            <td><select name="gender" id="gender">
+              <option></option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                    </select>
+                 </td>
+                 </tr>
+                   <tr>
+                     <td>
+                    <label for="Country">Country:</label>
+                     </td>
+                     <td><Input type="text" id="country" placeholder="Enter your Country" required>
+                    </td>
+                   </tr>
+                    <tr>
+                      <td>
+                    <label for="state">State/Providence:</label>
+                      </td>
+                      <td>
+                  <Input type="text" id="state" placeholder="State/Providence" required>
+                    </td>
+                    </tr>
+                    <tr>
+                      <td>
+                    <label for="username">Email:</label>
+                      </td>
+                      <td><Input type="text" id="username" placeholder="Username" required>
+                    </td>
+                    </tr>
+                      <tr>
+                    <td>
+                    <label for="password">Password:</label>
+                    </td>
+                        <td><Input type="password" id="password" placeholder="password" required>
+                        </td>
+                        <tr>
+                    <td>
+                    <label for="confirm-password">Confirm Password:</label></td>
+                  <td><Input type="text" id="confirm-password" placeholder="Confirm password" required>
+                  </td>
+                    </tr>
+                    <tr>
+                  <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+                </tr>
+                    </table>
+            </form>
+        </main>
+</body>
+</html>
